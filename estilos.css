@@ -1,1 +1,80 @@
+html, * {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-color: EBB98C;
+}
+
+section {
+    margin: 20px auto;
+    border-bottom: 2px solid black;
+    padding: 10px 5px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.contenido_horizontal {
+    /*Este de abajo pone horizantal el contenido*/
+    display: flex; 
+    flex-direction: row;
+    gap: 10px;
+    margin: 8px 0px;
+}
+
+.contenido_horizontal>div {   /*todos los div del contenido horizontal*/
+    padding: 10px 5px;
+}
+
+.Bachelor, .Sr_software, .Jr_Software {
+    border-right: 2px solid black;
+}
+
+.Name {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.Profesion {
+    font-size: 20px;
+    font-weight: 800;
+    background-color: FAD2AA;
+    color: 5F5549;
+    padding: 0px 3px;
+}
+
+.margen_de_color {
+    width: 60px;
+    height: 100%;
+    background-color: FCD1AB;
+}
+
+.profile_section {
+    height: 250px;
+}
+
+.Fondo {
+    background-color: white;
+}
 
